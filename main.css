@@ -15,3 +15,22 @@
   width: 100px;
   height: 35px;
 }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+#fruits-list {
+  list-style: none;
+  padding: 0;
+}
+#fruits-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+}
