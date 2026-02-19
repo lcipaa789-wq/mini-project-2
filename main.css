@@ -1,0 +1,17 @@
+/* * {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+} */
+#fruit-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#fruit-buttons button {
+  width: 100px;
+  height: 35px;
+}
